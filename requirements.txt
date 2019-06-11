@@ -1,0 +1,4 @@
+requests>=2.5.0
+BeautifulSoup4>=4.0.0
+future>=0.15.2
+lxml>=4.2.0
