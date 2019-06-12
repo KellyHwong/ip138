@@ -2,15 +2,14 @@
 from __future__ import print_function
 import sys
 from optparse import OptionParser
-from manhuagui import __version__
+
 try:
     from itertools import ifilter as filter
 except ImportError:
     pass
 
-import manhuagui.constant as constant
-from manhuagui.utils import urlparse, generate_html
-from manhuagui.logger import logger
+from ip138.logger import logger
+from ip138 import __version__
 
 try:
     if sys.version_info < (3, 0, 0):
