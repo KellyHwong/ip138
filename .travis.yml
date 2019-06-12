@@ -1,0 +1,14 @@
+os:
+  - linux
+
+language: python
+python:
+  - 3.6
+  - 3.7
+
+install:
+  - python setup.py install
+
+script:
+  - ip138 --ip=216.58.220.195
+  - ip138 --ip=172.217.161.164
