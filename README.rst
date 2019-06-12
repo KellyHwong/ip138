@@ -34,3 +34,12 @@ Example 例子
 .. code-block:: bash
 
     ip138 --ip=172.217.161.164
+
+
+======================
+import use import 使用
+======================
+.. code-block:: python
+
+    from ip138.ip138 import ip138
+    ip138("111.111.111.111")
