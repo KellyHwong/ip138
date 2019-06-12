@@ -37,7 +37,7 @@ Example 例子
 
 
 ======================
-import use import 使用
+import usage import 使用
 ======================
 .. code-block:: python
 
